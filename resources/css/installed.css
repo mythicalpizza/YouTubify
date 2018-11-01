@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html {
+  margin: 0;
+  height: 100%;
+}
+
+body{
+  background-color: #e52d27;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #e52d27;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+section {
+  width: 50%;
+  display: block;
+  margin: 0 auto 1.5em auto;
+}
+
+a {
+  color: #55acee;
+}
+
+footer {
+  margin-top: 3em;
+}
+
+/*Used for layout styling*/
+/*body, #wrapper, header, main, section, footer, p, h1, h2, h3, h4, h5, h6, span, form, div {
+  border: solid 1px #ff0000;
+}*/
+
+#wrapper {
+  background-color: #fff;
+  width: 100%;
+  text-align: justify;
+  color: #000;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  display: block;
+  margin: auto;
+}
+
+#y-title {
+  margin-bottom: 5px;
+}
+
+#y-slogan {
+  font-size: 0.95em;
+}
+
+.cool-hr {
+  margin: 1em auto 3em auto;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #e52d27;
+  box-shadow: inset 0 0 0.5px 0.5px #fff;
+  border-radius: 25%;
+}
+
+#pp-ask, .pp-form {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 100%;
+}

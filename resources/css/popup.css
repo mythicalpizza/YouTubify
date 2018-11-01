@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html {
+  min-width: 30em;
+}
+
+body {
+  background-color: #e52d27;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 3em;
+}
+
+#wrapper {
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  width: 75%;
+  display: block;
+}
+
+main {
+  font-size: 1.3em;
+}
+
+
+select {
+  border-radius: 25px;
+  color: #fff;
+  background-color:#e52d27;
+  border: solid 2px #fff;
+}
+
+label {
+  float: left;
+}
+
+input, select {
+  float: right;
+}
